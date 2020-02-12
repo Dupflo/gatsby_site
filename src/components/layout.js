@@ -24,11 +24,11 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div id="bg-image">
       <Header/>
         {/* <main>{children}</main> */}
         {children}
-    </>
+    </div>
   )
 }
 
