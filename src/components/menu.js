@@ -1,25 +1,48 @@
-import React from 'react';
+import React, { Component } from "react"
 import { Link } from "gatsby"
 
-const Menu = () => (
-        <div style={{
-            background: '#f4f4f4',
-            paddingTop: '10px'
-        }}>
-
-            <ul style={{
-                listStyle: 'none',
-                display: 'flex',
-                justifyContent: 'space-evenly'
-            }}>
-
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/services">Services</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
-            </ul>
-            
+class Menu extends Component {
+  constructor(props) {
+    super(props)
+    this.state = { addClass: false }
+  }
+  toggle() {
+    this.setState({ addClass: !this.state.addClass })
+  }
+  render() {
+    let menuClass = ["show"]
+    return (
+      <>
+        <div className={this.state.addClass ? "menu-btn close" : "menu-btn"} onClick={this.toggle.bind(this)}>
+          <div className="btn-line"></div>
+          <div className="btn-line"></div>
+          <div className="btn-line"></div>
         </div>
+        <div className={this.state.addClass ? "menu show" : "menu"}>
+          <div className={this.state.addClass ? "menu-branding show" : "menu-branding"}>
+            <div className="portrait"></div>
+          </div>
+          <ul className={this.state.addClass ? "menu-nav show" : "menu-nav"}>
+            <li className={this.state.addClass ? "nav-item current show" : "nav-item "}>
+              <Link to="/" className="nav-link">Accueil</Link>
+            </li>
+            <li className={this.state.addClass ? "nav-item show" : "nav-item "}>
+              <Link to="/about" className="nav-link">A propos</Link>
+            </li>
+            <li className={this.state.addClass ? "nav-item show" : "nav-item"}>
+              <Link to="/projects" className="nav-link">Projets</Link>
+            </li>
+            <li className={this.state.addClass ? "nav-item show" : "nav-item "}>
+              <Link to="/blog" className="nav-link">Blog</Link>
+            </li>
+            <li className={this.state.addClass ? "nav-item show" : "nav-item "}>
+              <Link to="/contact" className="nav-link">Contact</Link>
+            </li>
+          </ul>
+        </div>
+      </>
     )
+  }
+}
 
-export default Menu;
+export default Menu
