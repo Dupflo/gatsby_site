@@ -275,6 +275,7 @@ main {
       margin-bottom: 2rem;
       font-size: 3rem; }
   .computerLogo {
+    width: 250px;
     margin-top: 10vh; }
   ul.menu-nav,
   div.menu-branding {
@@ -315,6 +316,7 @@ main {
       margin-bottom: 2rem;
       font-size: 2.5rem; }
   .computerLogo {
+    width: 250px;
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; }
