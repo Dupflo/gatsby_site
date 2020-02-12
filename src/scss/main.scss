@@ -1,17 +1,21 @@
 @import 'config';
 @import 'menu';
+@font-face {
+	font-family: "Nexa Light";
+	src: url('../fonts/Nexa\ Light.otf');
+}
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    // @include background;
+    @include background;
     background: $primary-color;
     color: set-text-color($primary-color);
     height: 100%;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Nexa Light', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
 }
 
@@ -23,7 +27,7 @@ h3 {
     font-weight: 400;
 
     &.lg-heading {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     &.sm-heading {
@@ -42,6 +46,10 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
+}
+
+.computerLogo {
+    width: 300px;
 }
 
 .text-secondary {
@@ -69,7 +77,7 @@ main {
     &#home {
         overflow: hidden;
         h1 {
-            margin-top: 20vh;
+            margin-top: 5vh;
         }
     }
 }

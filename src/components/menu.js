@@ -32,9 +32,9 @@ class Menu extends Component {
             <li className={this.state.addClass ? "nav-item show" : "nav-item"}>
               <Link to="/projects" className="nav-link">Projets</Link>
             </li>
-            <li className={this.state.addClass ? "nav-item show" : "nav-item "}>
+            {/* <li className={this.state.addClass ? "nav-item show" : "nav-item "}>
               <Link to="/blog" className="nav-link">Blog</Link>
-            </li>
+            </li> */}
             <li className={this.state.addClass ? "nav-item show" : "nav-item "}>
               <Link to="/contact" className="nav-link">Contact</Link>
             </li>

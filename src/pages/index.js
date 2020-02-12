@@ -1,5 +1,5 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, {Component} from "react"
+import computer, { ReactComponent as ReactLogo } from "../svg/computer.svg"
 import Layout from "../components/layout"
 import Socials from "../components/socials"
 import SEO from "../components/seo"
@@ -8,11 +8,12 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <main id="home">
+    <img src={computer} className="computerLogo"/>
             <h1 className="lg-heading">
                 Florian <span className="text-secondary">Dupuis</span>
             </h1>
             <h2 className="sm-heading">
-                Web Développeur Full Stack, Designer & Entrepreneur
+                Freelance Développeur Web Full Stack, Designer & Entrepreneur
             </h2>
             <Socials />
         </main>
