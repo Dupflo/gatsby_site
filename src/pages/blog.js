@@ -1,9 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import Footer from "../components/footer"
 
 const BlogPage = ({data}) => (
   <Layout>
+    <main>
     <h1>Latest Post</h1>
     {data.allMarkdownRemark.edges.map(post => (
         <div key= { post.node.id }>
@@ -17,6 +19,8 @@ const BlogPage = ({data}) => (
             <hr />
         </div>
     ))}
+    </main>
+    <Footer />
   </Layout>
 )
 

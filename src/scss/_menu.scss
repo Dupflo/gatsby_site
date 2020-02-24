@@ -98,6 +98,7 @@
 
     .nav-item {
         transform: translate3d(600px, 0, 0);
+        background: transparent;
         @include easeOut;
 
         &.show {
@@ -105,7 +106,7 @@
             transform: translate3d(0, 0, 0);
         }
 
-        &.current > a {
+        & a.active {
             color: $secondary-color;
         }
     }

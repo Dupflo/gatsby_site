@@ -94,6 +94,10 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .project {
+    grid-template-columns: 1fr;
+  }
 }
 
 // Smartphones

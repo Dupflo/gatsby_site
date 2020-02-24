@@ -4,12 +4,14 @@ exports.createPages = ({boundActionCreators, graphql}) => {
     const { createPage } = boundActionCreators
 
     const postTemplate = path.resolve('src/templates/blog-post.js');
+    const projectTemplate = path.resolve('src/templates/project.js');
 
     return graphql(`
         {
                 allMarkdownRemark {
                   edges {
                     node {
+                
                       html
                       id
                       frontmatter {
@@ -21,7 +23,15 @@ exports.createPages = ({boundActionCreators, graphql}) => {
                     }
                   }
                 }
-              }
+
+                allProjectsJson {
+                  edges {
+                    node {
+                      slug
+                    }
+                  }
+                }
+          }
     `).then(res => {
         if(res.errors) {
             return Promise.reject(res.errors)
@@ -32,5 +42,15 @@ exports.createPages = ({boundActionCreators, graphql}) => {
                 component: postTemplate
             })
         }) 
+
+        res.data.allProjectsJson.edges.forEach(({ node : { slug } }) => {
+          createPage({
+              path: `/${slug}/`,
+              component: projectTemplate,
+              context: { slug }
+          })
+      }) 
+
+
     })
 }

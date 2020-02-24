@@ -131,6 +131,10 @@ main {
     grid-gap: 0.7rem;
     grid-template-columns: repeat(3, 1fr);
 
+    h2 {
+        margin-top: 0.6rem;
+    }
+
     img {
         width: 100%;
         border: 3px $secondary-color solid;
@@ -141,6 +145,15 @@ main {
             @include easeOut;
         }
     }
+}
+
+.project {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: 
+    'lg-heading'
+    'project-photo project-info ';
+    grid-template-columns: repeat(2, 1fr);
 }
 
 //Contact Page

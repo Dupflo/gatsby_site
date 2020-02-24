@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Numéro 1 Store",
+    "slug": "n1-store",
+    "url": "https://n1-store.com/",
+    "image": "./images/project1.jpg",
+    "projectType": "Prestashop 1.7",
+    "description": "Numéro 1 Store ou N1 Store est une boutique de vente ligne d'équipements de gardien de but. Le site est développé avec le CMS Prestashop et un thème sur-mesure optimisé pour le référencement naturel SEO ",
+    "tags": ["React", "Gatsby", "JavaScript"]
+  },
+  {
+    "title": "Hannahpad France",
+    "slug": "hannahpad",
+    "url": "https://example.org/",
+    "image": "./images/hannahpad.jpg",
+    "projectType": "Prestashop 1.7",
+    "description": "This one is also good.",
+    "tags": ["GraphQL"]
+  },
+  {
+    "title": "My Gallery - G.Abgrall",
+    "slug": "mygallery",
+    "url": "https://example.org/",
+    "image": "./images/project2.jpg",
+    "projectType": "Prestashop 1.7",
+    "description": "This one is also good.",
+    "tags": ["GraphQL"]
+  },
+  {
+    "title": "Orzale Sport",
+    "slug": "orzale",
+    "url": "https://example.org/",
+    "image": "./images/project2.jpg",
+    "projectType": "Prestashop 1.7",
+    "description": "This one is also good.",
+    "tags": ["GraphQL"]
+  }
+  ,
+  {
+    "title": "Atelier de Voyage",
+    "slug": "atelierdevoyage",
+    "url": "https://example.org/",
+    "image": "./images/adv.jpg",
+    "projectType": "Prestashop 1.7",
+    "description": "This one is also good.",
+    "tags": ["GraphQL"]
+  },
+  {
+    "title": "Paléordovi",
+    "slug": "paleordovi",
+    "url": "https://example.org/",
+    "image": "./images/paleordovi.jpg",
+    "projectType": "Wordpress",
+    "description": "Site développé avec Wordpress",
+    "tags": ["GraphQL"]
+  },
+  {
+    "title": "Ce portfolio",
+    "slug": "floriandupuis",
+    "url": "https://example.org/",
+    "image": "./images/project2.jpg",
+    "projectType": "GatsbyJS (ReactJS) et SASS",
+    "description": "This one is also good.",
+    "tags": ["GraphQL"]
+  },
+  {
+    "title": "Cartes de visites",
+    "slug": "floriandupuis",
+    "url": "https://example.org/",
+    "image": "./images/project2.jpg",
+    "projectType": "GatsbyJS (ReactJS) et SASS",
+    "description": "This one is also good.",
+    "tags": ["GraphQL"]
+  }
+]

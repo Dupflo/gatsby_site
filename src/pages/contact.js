@@ -1,8 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import Footer from "../components/footer"
+import SEO from "../components/seo"
 
 const ContactPage = () => (
     <Layout>
+         <SEO title="Contactez-moi" />
         <main>
         <h1 className="lg-heading">
             Contactez-<span className="text-secondary">moi</span>
@@ -25,7 +28,9 @@ const ContactPage = () => (
               </div>
          </div>
         </main>
+        <Footer/>
     </Layout>
+    
   )
 
 export default ContactPage

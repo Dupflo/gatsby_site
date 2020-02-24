@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Florian Dupuis - Développeur Web Full Stack`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Freelance Développeur Web. Sites vitrines, sites e-commerce, Applications Web, Stratégies digitales, Référencement SEO, Cartes de visite, Flyers, Plaquettes`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -27,14 +27,22 @@ module.exports = {
         icon: `src/images/icon-48x48.png`, // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-catch-links', 
+    "gatsby-plugin-catch-links",
     {
-      resolve: 'gatsby-source-filesystem',
-      options : {
+      resolve: "gatsby-source-filesystem",
+      options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages'
-      }
+        name: "pages",
+      },
     },
-    'gatsby-transformer-remark'
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/data`,
+        name: "project",
+      },
+    },
+    `gatsby-transformer-json`,
+    "gatsby-transformer-remark"
   ],
 }
