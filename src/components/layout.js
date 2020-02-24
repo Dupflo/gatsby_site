@@ -13,7 +13,7 @@ import Header from "./header"
 import "../css/main.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+  useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
@@ -26,7 +26,6 @@ const Layout = ({ children }) => {
   return (
     <div id="bg-image">
       <Header/>
-        {/* <main>{children}</main> */}
         {children}
     </div>
   )

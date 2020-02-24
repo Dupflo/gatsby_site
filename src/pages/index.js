@@ -1,5 +1,5 @@
-import React, {Component} from "react"
-import computer, { ReactComponent as ReactLogo } from "../svg/computer.svg"
+import React from "react"
+import computer from "../svg/computer.svg"
 import Layout from "../components/layout"
 import Socials from "../components/socials"
 import SEO from "../components/seo"
