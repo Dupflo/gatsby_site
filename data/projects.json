@@ -23,7 +23,7 @@
     "url": "https://https://www.hackuity.io/",
     "image": "./images/hackuity.jpg",
     "projectType": "Optimisation UX",
-    "description": "Hackuity est une start-up spécialisée dans la gestion des vulnérabilités, un des aspects majeurs de la cyber sécurité. Après une mise en ligne de leur site V1 en janvier, j'ai été engagé pour participer à l'optimisation de l'expérience utilisateur du site ",
+    "description": "Hackuity est une start-up spécialisée dans la gestion des vulnérabilités, un des aspects majeurs de la cyber sécurité. Après une mise en ligne de leur site V1, j'ai été engagé pour participer à l'optimisation de l'expérience utilisateur du site. ",
     "tags": ["GraphQL"]
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://example.org/",
     "image": "./images/hannahpad.jpg",
     "projectType": "Boutique E-Commerce",
-    "description": "Hannahpad est une marque de serviettes hygiéniques lavables en coton biologique certifié. Hannahpad étant passée par une agence pour la réalisation du site, j'ai repris le flambeau en 2019. Ma première mission a été de régler de nombreux bugs engendré par du code mal optimisé. Le site à également été migré vers un serveur dédiée que je maintiens également. Je suis aujourd'hui un membre actif de leur société bien qu'agissant en temps que préstataire. ",
+    "description": "Hannahpad est une marque de serviettes hygiéniques lavables en coton biologique certifié. Hannahpad étant passée par une agence pour la réalisation du site, j'ai repris le flambeau en 2019. Ma première mission a été de régler de nombreux bugs engendrés par du code mal optimisé. Le site à également été migré vers un serveur dédiée que je maintiens également. Je suis aujourd'hui un membre actif de leur société bien qu'agissant en temps que préstataire. ",
     "tags": ["e-commerce, hannahpad france, serviette hygiénique"]
   },
   {
@@ -41,7 +41,7 @@
     "url": "#",
     "image": "./images/mygallery.jpg",
     "projectType": "PHP & Javascript",
-    "description": "My Gallery est une application en temps réel from scratch (sur mesure) en Javascript et en PHP. L'application est dotée d'un avec système d'envoi de mail via un serveur local et d'un système d'impression de photo automatique. L'application est aujourd'hui mise en place sur des événements d'entreprises, principalement du CAC40 (Orange, GFI, ...), avec une interaction des participants par un support tactile. Les participants de l'événement sont donc devenus acteur des animations événementiels grâce à cette application et ils peuvent ainsi imprimer eux-même ou s'envoyer par mail leurs photos de la soirée. ",
+    "description": "My Gallery est une application en temps réel from scratch (sur mesure) en Javascript et en PHP. L'application est dotée d'un système d'envoi de mail via un serveur local et d'un système d'impression de photo automatique. L'application est aujourd'hui mise en place sur des événements d'entreprises, principalement du CAC40 (Orange, GFI, ...), avec une interaction des participants par un support tactile. Les participants de l'événement sont donc devenus acteur des animations événementiels grâce à cette application et ils peuvent ainsi imprimer eux-même ou s'envoyer par mail leurs photos de la soirée. ",
     "tags": ["php, javascript, from scratch"]
   },
   {
@@ -50,7 +50,7 @@
     "url": "https://orzale-sport.com/",
     "image": "./images/orzale.jpg",
     "projectType": "Boutique E-Commerce",
-    "description": "Orzale Sport est une marque de gants de gardien de but de football que nous avons crée avec deux associés. Je suis à l'origine de la conception des designs et de la maintenance de notre site internet que j'ai au préalable mis en place, ainsi que de la gestion des campagnes marketing et des réseaux sociaux.",
+    "description": "Orzale Sport est une marque de gants de gardien de but de football que nous avons crée avec deux associés. Je suis à l'origine de la conception des designs et de la maintenance de notre site internet que j'ai au préalable mis en place. Je m'occupe également de la gestion des campagnes marketing et des réseaux sociaux.",
     "tags": ["GraphQL"]
   }
   ,
@@ -60,7 +60,7 @@
     "url": "https://example.org/",
     "image": "./images/adv.jpg",
     "projectType": "Boutique E-Commerce",
-    "description": "Atelier des voyages est une société physique de ventes de valises de voyage avec trois boutiques physiques en région parisienne. J'ai réalisé la refonte de la boutique en ligne basé sur un thème premium.",
+    "description": "Atelier des voyages est une société physique de ventes de valises avec trois boutiques physiques à son actif en région parisienne. J'ai réalisé la refonte de la boutique en ligne basé sur un thème premium Prestashop imposé par le responsable Marketing de la société.",
     "tags": ["GraphQL"]
   },
   {
@@ -69,7 +69,7 @@
     "url": "https://popartpiercing.org/",
     "image": "./images/popart.jpg",
     "projectType": "Boutique E-Commerce",
-    "description": "Popart Piercing est une boutique en ligne de vente de piercing en ligne. Grégory Cyr est un bodypiercer de 11 ans d'expérience et est considéré comme une référence dans son domaine dans le sud de la France (French Riviera). Le site est actuellement en refonte... ",
+    "description": "Popart Piercing est une boutique en ligne de vente de piercings en ligne. Grégory Cyr est un bodypiercer de 11 ans d'expérience et est considéré comme une référence dans son domaine dans le sud de la France (French Riviera). Le site est actuellement en refonte... ",
     "tags": ["GraphQL"]
   },
   {
@@ -87,7 +87,7 @@
     "url": "https://example.org/",
     "image": "./images/dupuisweb.jpg",
     "projectType": "GatsbyJS (ReactJS) et SASS",
-    "description": "Ce site à plus vocation d'être un CV Digital qu'un site de vente de prestation. Il s'agit d'un site sur mesure réalisé avec des technologies de pointe : ReactJS avec le constructeur GatsbyJS. Les feuilles de style sont réalisés en SASS.",
+    "description": "Ce site à plus vocation d'être un CV Digital qu'un site de vente de prestation. Il s'agit d'un site sur mesure réalisé avec des technologies de pointe : ReactJS avec le constructeur GatsbyJS. Les feuilles de style sont réalisées en SASS.",
     "tags": ["GraphQL"]
   }
 ]
