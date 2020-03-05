@@ -42,19 +42,19 @@ const AboutPage = ({ data }) => (
         <div className="job job-1">
             <h3>HTML / CSS / JAVASCRIPT / PHP</h3>
             <h5>Développement Web sur mesure</h5>
-            <p>Passionné par la création d'application Web. Le site sur lequel vous navigué est d'ailleurs codé avec les frameworks React JS et Gatsby JS. Pour plus d'information je vous invite à naviguer sur la pags "Mes projets". Je développe également sous NodeJS et le framwork PHP Laravel</p>
+            <p>Passionné par la création d'application Web. Le site sur lequel vous naviguez est d'ailleurs codé en ReactJS avec le générateur de site static Gatsby JS. Pour plus d'information je vous invite à naviguer sur la pags "Mes projets". Je développe également sous NodeJS et le framwork PHP Laravel</p>
         </div>
 
         <div className="job job-2">
             <h3>CMS Prestashop & CMS Wordpress</h3>
             <h5>E-Commerce / Site Vitrine / Site Dynamique</h5>
-            <p>Je développe et maintiens des sites E-Commerce sous le Content Management System Prestashop. Je possède un licence DIVI pour le développement de site Wordpress simple. Intégration web, développement sur-mesure, développement de modules et corrections de bugs.</p>
+            <p>Je développe et maintiens des sites E-Commerce sous le Content Management System Prestashop. Je possède un licence DIVI pour le développement de sites Wordpress simples. Intégration web, développement sur-mesure, développement de modules et corrections de bugs.</p>
         </div>
 
         <div className="job job-3">
             <h3>Marketing Digital et Print</h3>
             <h5>Référecement SEO / Publicité en ligne / Cartes de visites / Flyers</h5>
-            <p>J'ai développé des compétences en design graphique et la mise en page de document imprimable avec des logiciels d'édition graphique tels que Adobe Photoshop, Illustrator et InDesign. Ces compétences me sont utile dans l'élaboration des produits commercialisés par ma société Orzale Sport.  </p>
+            <p>Je possède des compétences en design graphique et la mise en page de documents imprimables sous des logiciels de PAO tels que Adobe Photoshop, Illustrator et InDesign. Ces compétences me sont également utiles dans l'élaboration des produits commercialisés par ma société Orzale Sport.  </p>
         </div>
         </div>
         <Socials />
