@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Florian Dupuis - Développeur Web Full Stack`,
+    siteUrl: `https://dupuisweb.com`,
     description: `Freelance Développeur Web. Sites vitrines, sites e-commerce, Applications Web, Stratégies digitales, Référencement SEO, Cartes de visite, Flyers, Plaquettes`,
     author: `@gatsbyjs`,
   },
