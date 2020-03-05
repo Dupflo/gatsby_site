@@ -39,13 +39,12 @@ const ProjectsPage = () => {
           Mes <span className="text-secondary">projets</span>
         </h1>
         <h2 className="sm-heading">
-          Voici quelques un de mes projets... page en construction... visitez
+          Voici quelques uns de mes projets. Vous pouvez également visiter
           mon profil{" "}
           <a href="https://www.malt.fr/profile/dupuisflorian" target="_blank">
             {" "}
             Malt
           </a>{" "}
-          en attendant
         </h2>
         <div className="projects">
           {projects.map(({ node: project }) => {

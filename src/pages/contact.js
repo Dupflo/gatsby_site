@@ -11,7 +11,7 @@ const ContactPage = () => (
             Contactez-<span className="text-secondary">moi</span>
         </h1>
         <h2 className="sm-heading">
-            Un projet ? Une mission ? Voici comment me contacter...
+            Un projet, une mission ? Voici comment me contacter...
         </h2>
         <div className="boxes">
             <div>
