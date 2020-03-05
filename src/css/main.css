@@ -199,7 +199,7 @@ main {
     border: #00c1c7 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.3rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -337,15 +337,15 @@ main {
   main {
     padding: 2rem; }
     main#home h1 {
-      font-size: 5rem; }
+      font-size: 4rem; }
       main#home h1.lg-heading {
         margin-top: 0.5em; }
     main .lg-heading {
-      margin-top: 2em;
+      margin-top: 1em;
       margin-bottom: 2rem;
       font-size: 2.5rem; }
   .computerLogo {
-    width: 250px;
+    width: 150px;
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; }
