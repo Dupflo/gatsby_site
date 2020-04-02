@@ -7,12 +7,6 @@ library.add(fab)
 
 const Socials = () => (
        <div className="icons">
-                {/* <a href="#!">
-                    <i className="fab fa-twitter fa-2x"></i>
-                </a> */}
-                {/* <a href="#!">
-                    <i className="fab fa-facebook fa-2x"></i>
-                </a> */}
                 <a href="https://www.linkedin.com/in/florian-dupuis-701310b1/" target="_blank">
                 <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x" width="32px"/>
                 </a>
@@ -21,6 +15,9 @@ const Socials = () => (
                 </a>
                 <a href="https://github.com/Dupflo" target="_blank">
                 <FontAwesomeIcon icon={['fab', 'github']} size="2x" width="32px"/>
+                </a>
+                <a href="https://www.instagram.com/dupflo/" target="_blank">
+                <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" width="32px"/>
                 </a>
             </div>
     )

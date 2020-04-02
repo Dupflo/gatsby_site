@@ -1,5 +1,23 @@
 [
   {
+    "title": "TALK CM",
+    "slug": "talk-cm",
+    "url": "https://talk-cm.com/",
+    "image": "./images/talk-cm.jpg",
+    "projectType": "Site static en React",
+    "description": "TALK est une startup qui accompagne tous les commerçants qui le souhaitent dans leur digitalisation, un des piliers principaux de la réussite.",
+    "tags": ["React JS", "Gatsby JS", "JavaScript"]
+  },
+  {
+    "title": "UPVIN E-Commerce",
+    "slug": "upvin",
+    "url": "https://upvin.eu/",
+    "image": "./images/upvin.jpg",
+    "projectType": "E-Commerce",
+    "description": "TDepuis 2018, UPVIN met à votre disposition un large choix de vins au meilleur prix sélectionnés dans nos meilleures caves ! La boutique upvin.eu vous garantit un service unique sur un grand choix de vins rouges et vins blancs. Que ce soit un vin d’Alsace, un Côtes du Rhône, un Côtes de Gascogne, un Champagne, un Beaujolais Blanc, un Bordeaux, un vin bio ou vous cherchez tout simplement un vin rouge ou un vin blanc pour accompagner vos plats ? UPVIN est votre site expert en vente de vin pour un rapport qualité prix sans égal.",
+    "tags": ["Prestashop", "E-Commerce"]
+  },
+  {
     "title": "Numéro 1 Store",
     "slug": "n1-store",
     "url": "https://n1-store.com/",
@@ -11,7 +29,7 @@
   {
     "title": "FilibertiJB",
     "slug": "filibertijb",
-    "url": "https://example.org/",
+    "url": "https://jbfiliberti.com/",
     "image": "./images/jbfiliberti.jpg",
     "projectType": "Boutique E-Commerce",
     "description": "JB Filiberti est une boutique vente en ligne de vêtements de travail et d'EPI. La société est active depuis 17 ans et se lance de le E-Commerce en ligne. La boutique actuellement en ligne a pour vocation de convertir une clientèle existante (composée en majorité de professionnelsà à l'achat en ligne. Une perspective d'évolution de cette boutique serait la mise en place d'une stratégie de référencement naturel SEO... à suivre",
@@ -20,7 +38,7 @@
   {
     "title": "Hackuity.io",
     "slug": "hackuity",
-    "url": "https://https://www.hackuity.io/",
+    "url": "https://www.hackuity.io/",
     "image": "./images/hackuity.jpg",
     "projectType": "Optimisation UX",
     "description": "Hackuity est une start-up spécialisée dans la gestion des vulnérabilités, un des aspects majeurs de la cyber sécurité. Après une mise en ligne de leur site V1, j'ai été engagé pour participer à l'optimisation de l'expérience utilisateur du site. ",
@@ -29,7 +47,7 @@
   {
     "title": "Hannahpad France",
     "slug": "hannahpad",
-    "url": "https://example.org/",
+    "url": "https://hannahpad.fr/",
     "image": "./images/hannahpad.jpg",
     "projectType": "Boutique E-Commerce",
     "description": "Hannahpad est une marque de serviettes hygiéniques lavables en coton biologique certifié. Hannahpad étant passée par une agence pour la réalisation du site, j'ai repris le flambeau en 2019. Ma première mission a été de régler de nombreux bugs engendrés par du code mal optimisé. Le site à également été migré vers un serveur dédiée que je maintiens également. Je suis aujourd'hui un membre actif de leur société bien qu'agissant en temps que préstataire. ",
@@ -38,7 +56,7 @@
   {
     "title": "My Gallery - G.Abgrall",
     "slug": "mygallery",
-    "url": "#",
+    "url": "",
     "image": "./images/mygallery.jpg",
     "projectType": "PHP & Javascript",
     "description": "My Gallery est une application en temps réel from scratch (sur mesure) en Javascript et en PHP. L'application est dotée d'un système d'envoi de mail via un serveur local et d'un système d'impression de photo automatique. L'application est aujourd'hui mise en place sur des événements d'entreprises, principalement du CAC40 (Orange, GFI, ...), avec une interaction des participants par un support tactile. Les participants de l'événement sont donc devenus acteur des animations événementiels grâce à cette application et ils peuvent ainsi imprimer eux-même ou s'envoyer par mail leurs photos de la soirée. ",
@@ -57,7 +75,7 @@
   {
     "title": "Atelier de Voyage",
     "slug": "atelierdevoyage",
-    "url": "https://example.org/",
+    "url": "https://atelierdevoyage.com/",
     "image": "./images/adv.jpg",
     "projectType": "Boutique E-Commerce",
     "description": "Atelier des voyages est une société physique de ventes de valises avec trois boutiques physiques à son actif en région parisienne. J'ai réalisé la refonte de la boutique en ligne basé sur un thème premium Prestashop imposé par le responsable Marketing de la société.",
@@ -66,7 +84,7 @@
   {
     "title": "Popart Piercing - Luxury",
     "slug": "popart-piercing",
-    "url": "https://popartpiercing.org/",
+    "url": "https://popartpiercing.com/",
     "image": "./images/popart.jpg",
     "projectType": "Boutique E-Commerce",
     "description": "Popart Piercing est une boutique en ligne de vente de piercings en ligne. Grégory Cyr est un bodypiercer de 11 ans d'expérience et est considéré comme une référence dans son domaine dans le sud de la France (French Riviera). Le site est actuellement en refonte... ",
@@ -84,7 +102,7 @@
   {
     "title": "Ce site Portoflio",
     "slug": "portfolio",
-    "url": "https://example.org/",
+    "url": "https://dupuisweb.com/",
     "image": "./images/dupuisweb.jpg",
     "projectType": "GatsbyJS (ReactJS) et SASS",
     "description": "Ce site à plus vocation d'être un CV Digital qu'un site de vente de prestation. Il s'agit d'un site sur mesure réalisé avec des technologies de pointe : ReactJS avec le constructeur GatsbyJS. Les feuilles de style sont réalisées en SASS.",

@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Accueil" />
+    <SEO title="Florian Dupuis" />
     <main id="home">
     <img src={computer} className="computerLogo"/>
             <h1 className="lg-heading">

@@ -53,7 +53,7 @@ const ProjectsPage = () => {
             const slug = project.slug
             const imageData = project.image.childImageSharp.fluid
             return (
-              <ProjectPreview title={title} projectType={projectType} imageData={imageData} slug={slug} />
+              <ProjectPreview key={project.id} title={title} projectType={projectType} imageData={imageData} slug={slug} />
             )
           })}
         </div>
