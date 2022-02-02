@@ -39,8 +39,8 @@ const ProjectsPage = () => {
           Mes <span className="text-secondary">projets</span>
         </h1>
         <h2 className="sm-heading">
-          Voici quelques uns de mes projets. Vous pouvez également visiter
-          mon profil{" "}
+          Voici quelques uns de mes projets. Vous pouvez également visiter mon
+          profil{" "}
           <a href="https://www.malt.fr/profile/dupuisflorian" target="_blank">
             {" "}
             Malt
@@ -53,7 +53,13 @@ const ProjectsPage = () => {
             const slug = project.slug
             const imageData = project.image.childImageSharp.fluid
             return (
-              <ProjectPreview key={project.id} title={title} projectType={projectType} imageData={imageData} slug={slug} />
+              <ProjectPreview
+                key={project.id}
+                title={title}
+                projectType={projectType}
+                imageData={imageData}
+                slug={slug}
+              />
             )
           })}
         </div>
